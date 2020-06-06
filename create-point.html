@@ -7,9 +7,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet"> 
 
-    <link rel="stylesheet" href="/NLW/styles/main.css">
-    <link rel="stylesheet" href="/NLW/styles/create-point.css">
-    <link rel="stylesheet" href="/NLW/styles/responsive.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/create-point.css">
+    <link rel="stylesheet" href="../styles/responsive.css">
     
 </head>
 <body>
@@ -17,7 +17,7 @@
     <div id="page-create-point">
             
         <header>
-            <img src="/NLW/assets/icones/logo.svg" alt="logomarca">
+            <img src="../assets/icones/logo.svg" alt="logomarca">
         
             <a href="#"><span></span>
                 Voltar para a home</a>
@@ -48,15 +48,19 @@
                 </div>
                 <div class="field-group">
                     <div class="field">
-                        <label for="state">Estado</label>
+                        <label for="uf">Estado</label>
                         <select name="uf">
                             <option value="">Selecione o estado</option>
+                            
                         </select>
+
+                        <input type="hidden" name="state">
                     </div>
                     <div class="field">
                         <label for="city">Cidade</label>
-                        <select name="">
+                        <select name="city">
                             <option value="">Selecione a cidade</option>    
+                                
                         </select>
                     </div>
                     

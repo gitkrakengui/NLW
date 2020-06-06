@@ -33,7 +33,7 @@
     width: 20px;
     height: 20px;
     display: flex;
-    background-image: url('/NLW/assets/icones/log-in.svg');
+    background-image: url('../assets/icones/log-in.svg');
 }
 
 #page-home main{
@@ -88,7 +88,7 @@
 
 #page-home main a span::after{
     content: "";
-    background-image: url(/NLW/assets/icones/search.svg);
+    background-image: url('../assets/icones/search.svg');
     width: 20px;
     height: 20px;
 
